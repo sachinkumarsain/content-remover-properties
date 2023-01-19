@@ -1,7 +1,7 @@
 let icon = document.querySelectorAll('i')
 for (let i = 0; i < icon.length; i++) {
     icon[i].onclick = () => {
-        let child = icon[i].parentElement.parentElement.children
+        let child = icon[i].parentElement.children
         for (let j = 0; j < child.length; j++) {
             if (j < child.length - 1) {
                 child[j].style.display = 'none'
