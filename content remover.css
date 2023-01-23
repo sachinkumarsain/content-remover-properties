@@ -1,39 +1,23 @@
-
 *{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
 }
 body {
-    background: url(content\ remover\ img/1267646.jpg) no-repeat scroll center / cover;
-    position: relative;
+    background: #E0EAFC;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #CFDEF3, #E0EAFC);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
-.head a{
-    position: absolute;
-    text-decoration: none;
-    top: -290px;
-    right: 80px;
-    color: white;
-    font-size: 27px;
-    z-index: 3;
-    background-color: whitesmoke;
-    padding: 3px 20px;
-    border-radius: 20px;
-    color: #000000;
-    box-shadow: 2px 2px 4px gray;
-}
-.head a:hover{
-    background-color: red;
-    color: white;
-}
 
-.wapper1 {
+.wapper {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 330px;
-    
+    margin-top: 100px;
 }
 
 .box {
@@ -42,9 +26,8 @@ body {
     margin: 0px 30px;
     box-shadow: 4px 4px 6px rgb(95, 94, 94);
     height: 398.2px;
-    z-index: 2;
     border: 1.5px solid black;
-    border-radius: 10px;
+    border-radius: 8px;
     text-align: justify;
     padding: 10px 2px;
     background: #EB5757;
